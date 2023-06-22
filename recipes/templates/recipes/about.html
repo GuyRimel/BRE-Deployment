@@ -8,17 +8,8 @@
   <link rel='stylesheet' href="{% static 'recipes/css/draft.css' %}">
   <title>BRE Documentation</title>
 </head>
-<body>
-  <navbar>
-    <navbar__link-container>
-      <a href="{% url 'list' %}">All Recipes</a>
-      <a href="{% url 'create' %}">Create</a>
-      <a href="{% url 'records' %}">Records</a>
-      <a href="{% url 'about' %}">About</a>
-      <a href="{% url 'logout' %}">Logout</a>
-    </navbar__link-container>
-  </navbar>
 
+<body>
   <div class="banner">
     <img src="{% static 'recipes/images/peppers_and_spoon.jpg' %}" alt="bell peppers and a spoon of pepper flakes" />
   </div>
@@ -43,6 +34,9 @@
     <p>Or, check out <a href="https://guyrimel.github.io/Portfolio-Site/">my portfolio</a>.</p>
     <p>Thanks a ton,</p>
     <h3>Guy Rimel</h3>
+
+    <br />
+    <a HREF="javascript:history.go(-1)" class="button-big">Back to BRE</a>
   </section>
 </body>
 </html>
