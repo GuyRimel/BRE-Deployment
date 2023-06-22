@@ -28,7 +28,7 @@ STATICFILES_DIRS = []
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-ml49cp(e)=yakpevh4xz)3w)6xuq6kv7g&3^xf^)gr-n3&p#%9')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bestrecipesever-3d5fc87c55f3.herokuapp.com','127.0.0.1']
 
