@@ -1,1 +1,1 @@
- gunicorn bookstore.wsgi --log-file -
+ gunicorn recipe_project.wsgi --log-file -
