@@ -17,8 +17,8 @@ def welcome_view(request):
     return render(request, 'recipes/welcome.html')
 
 
-def doc_view(request):
-    return render(request, 'recipes/doc.html')
+def about_view(request):
+    return render(request, 'recipes/about.html')
 
 
 class RecipeListView(LoginRequiredMixin, ListView):
