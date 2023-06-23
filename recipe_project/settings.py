@@ -126,6 +126,8 @@ MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
+    BASE_DIR / 'recipes',
+    BASE_DIR / 'static/recipes',
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
