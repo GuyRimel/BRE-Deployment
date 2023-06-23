@@ -71,14 +71,32 @@
 
 <!-- PREREQUISITES -->
 ### Prerequisites
-- git installed on your local machine
+- Python 3
+- Please see the "requirements.txt" file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- INSTALLATION -->
 ### Installation
 
-There's no installation, it's securely hosted on Heroku.
+Note: Run these commands in the terminal from the desired root directory
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/GuyRimel/BRE-Deployment.git
+   ```
+2. Install the requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Migrate the database
+   ```sh
+   python manage.py migrate
+   ```
+3. Run the local server
+   ```sh
+   python manage.py runserver
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
