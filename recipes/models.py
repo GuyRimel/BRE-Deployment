@@ -20,7 +20,7 @@ class Recipe(models.Model):
         max_length=20, choices=recipe_genre_choices, default='other')
     ingredients = models.TextField(max_length=300)
     rating = models.FloatField(max_length=4, default=0)
-    pic = models.ImageField(upload_to='recipes', default='no_picture.jpg')
+    pic = models.ImageField(upload_to='media/', default='no_picture.jpg')
 
     # calculate difficulty of recipe using cooking time and number of ingredients
     def calculate_difficulty(self):
